@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(197, 135, 255); */
+    /* color: white; */
+}
+.con{
+    margin: auto;
+    padding: 4rem;
+    min-height: 100vh;
+    width: 50%;
+    background-color: rgb(88, 97, 99);
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.con h1{
+    text-align: center;
+    color: white;
+}
+.con input{
+    font-size: 1rem;
+    padding: 10px;
+    margin: .5rem;
+    width: 100%;
+    height: 2rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.discription{
+    font-size: 1rem;
+    padding: 10px;
+    margin: .5rem;
+    width: 100%;
+    height: 4rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+button{
+    width: 100%;
+    cursor: pointer;
+    font-size: .8rem;
+    padding: 10px;
+    margin: .5rem;
+    height: 2rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    transition: all .5s;
+    background-color: rgb(0, 0, 0);
+
+}
+button:hover{
+    background-color: rgb(13, 0, 133);
+}
+.tasks{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 1rem;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    background-color: rgb(238, 182, 238);
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 90%;
+}
+.text p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: .8rem;
+}
+.dltbtn{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 6%;
+    background-color: red;
+}
+@media screen and(max-width:735px) {
+
+}
+@media (max-width: 1100px) {
+    
+    .con{
+        width: 90%;
+    }
+    .dltbtn{
+        width: 4%;
+    }
+  }
+  
